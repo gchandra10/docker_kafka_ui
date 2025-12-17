@@ -29,7 +29,9 @@ services:
       # Optional, but makes first demos nicer
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      
     networks: [knet]
+
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
@@ -46,3 +48,4 @@ services:
 networks:
   knet:
     name: knet
+
