@@ -26,8 +26,7 @@ docker exec --workdir /opt/kafka/bin/ -it kafka sh
 ## Create a Topic
 
 ```
-./kafka-topics.sh
- --bootstrap-server localhost:9092 --create --topic gc-topic
+./kafka-topics.sh --bootstrap-server localhost:9092 --create --topic gc-topic
  ```
 
 
