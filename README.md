@@ -1,5 +1,10 @@
 # Docker Kafka - Kafka UI
 
+## Fork and Clone the Repo
+
+```
+git clone https://github.com/gchandra10/docker_kafka_ui
+```
 
 ## Launch the containers
 
